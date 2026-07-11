@@ -1,93 +1,305 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Pasnex.ai | AI Automation Solutions</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Pasnex.ai | Coming Soon</title>
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
+body{
+background:#050816;
+color:#ffffff;
+overflow-x:hidden;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:30px 0;
+}
+
+.logo{
+font-size:32px;
+font-weight:800;
+}
+
+.logo span{
+color:#38bdf8;
+}nav a{
+color:#ffffff;
+text-decoration:none;
+margin-left:30px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+body::before{
+content:"";
+position:fixed;
+width:350px;
+height:350px;
+background:#2563eb;
+top:-120px;
+left:-120px;
+border-radius:50%;
+filter:blur(120px);
+opacity:.35;
+z-index:-1;
+}
+
+body::after{
+content:"";
+position:fixed;
+width:350px;
+height:350px;
+background:#7c3aed;
+bottom:-120px;
+right:-120px;
+border-radius:50%;
+filter:blur(120px);
+opacity:.35;
+z-index:-1;
+}.hero{
+min-height:85vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.badge{
+display:inline-block;
+padding:10px 20px;
+background:rgba(56,189,248,.15);
+border:1px solid rgba(56,189,248,.35);
+border-radius:40px;
+color:#38bdf8;
+margin-bottom:25px;
+font-weight:600;
+}
+
+.hero h1{
+font-size:64px;
+font-weight:800;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.hero h1 span{
+color:#38bdf8;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:20px;
+line-height:1.8;
+color:#cbd5e1;
+}.btn{
+display:inline-block;
+margin-top:40px;
+padding:16px 36px;
+background:#2563eb;
+color:#fff;
+text-decoration:none;
+border-radius:50px;
+font-weight:700;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-4px);
+box-shadow:0 15px 35px rgba(37,99,235,.45);
+}
+
+.launch{
+margin-top:25px;
+font-size:22px;
+color:#22c55e;
+font-weight:700;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:42px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+header{
+flex-direction:column;
+gap:20px;
+}
+
+}
+
+</style>
 
 <body>
 
-<header class="hero">
-    <nav>
-    <h1>Pasnex.ai</h1>
-    <div class="menu">
-        <a href="#">Home</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </div>
-</nav>
-        
+<div class="container">
 
-    <div class="hero-content">
-    <h2>AI Automation That Helps Businesses Grow Faster</h2>
+<header>
 
-    <p>
-        Empower your business with intelligent AI solutions.
-        Pasnex.ai helps automate customer engagement, streamline
-        workflows, and accelerate business growth through modern
-        automation technology.
-    </p>
-
-    <div class="hero-buttons">
-        <button class="primary-btn">Get Started</button>
-        <button class="secondary-btn">Book a Demo</button>
-    </div>
+<div class="logo">
+Pasnex<span>.ai</span>
 </div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+
 </header>
+<section class="hero">
 
+<div>
 
-<section class="services" id="services">
+<div class="badge">
+🚀 AI Powered Business Automation
+</div>
 
-    <h2>Our AI Solutions</h2>
+<h1>
 
-    <div class="services-grid">
+Build Faster.<br>
 
-        <div class="card">
-            <h3>🤖 AI Chatbots</h3>
-            <p>Smart AI assistants for customer support, lead generation, and business communication.</p>
-        </div>
+<span>Work Smarter.</span><br>
 
-        <div class="card">
-            <h3>📱 Instagram Automation</h3>
-            <p>Automate messages, customer engagement, follow-ups, and marketing workflows.</p>
-        </div>
+Grow Without Limits.
 
-        <div class="card">
-            <h3>⚙️ Workflow Automation</h3>
-            <p>Streamline repetitive business processes with intelligent AI automation.</p>
-        </div>
-
-        <div class="card">
-            <h3>💻 Custom AI Software</h3>
-            <p>Custom web applications and AI-powered business solutions designed for growth.</p>
-        </div>
-
-    </div>
-
-</section>
-
-
-<section class="about" id="about">
-  <h2>About Pasnex.ai</h2>
+</h1>
 
 <p>
-Pasnex.ai is an AI automation company dedicated to helping businesses
-work smarter through intelligent technology. We specialize in AI-powered
-automation, Instagram automation, chatbots, workflow automation, and
-custom software solutions that improve productivity, enhance customer
-engagement, and support business growth.
-</p>
-</section>
 
-<section class="contact" id="contact">
-       <h2>  Contact Us</h2>
-       <p>   Email: info@pasnex.ai</p>
-       <p>   Let's build intelligent automation solutions together.</p>
+We're building the next-generation AI platform
+that helps businesses automate workflows,
+improve productivity and accelerate growth.
+
+</p>
+
+<a href="mailto:info@pasnex.com" class="btn">
+
+Contact Us
+
+</a>
+
+<div class="launch">
+
+Official Launch Coming Soon
+
+</div>
+
+</div>
+
 </section>
+<section class="features">
+
+<div class="feature">
+<h3>⚡ AI Automation</h3>
+<p>Automate repetitive workflows with intelligent AI solutions.</p>
+</div>
+
+<div class="feature">
+<h3>🧠 Smart Intelligence</h3>
+<p>Make better business decisions using AI-powered insights.</p>
+</div>
+
+<div class="feature">
+<h3>☁️ Cloud Platform</h3>
+<p>Secure, scalable and built for modern businesses.</p>
+</div>
+
+</section>
+<style>
+
+.features{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+padding:60px 0;
+}
+
+.feature{
+width:300px;
+padding:30px;
+background:rgba(255,255,255,.08);
+border:1px solid rgba(255,255,255,.10);
+border-radius:20px;
+text-align:center;
+backdrop-filter:blur(15px);
+transition:.3s;
+}
+
+.feature:hover{
+transform:translateY(-8px);
+border-color:#38bdf8;
+box-shadow:0 15px 35px rgba(56,189,248,.25);
+}
+
+.feature h3{
+color:#38bdf8;
+margin-bottom:15px;
+}
+
+.feature p{
+color:#cbd5e1;
+line-height:1.7;
+}
+
+footer{
+text-align:center;
+padding:50px 20px;
+border-top:1px solid rgba(255,255,255,.08);
+color:#94a3b8;
+}
+
+</style>
+
 <footer>
-    <p>© 2026 Pasnex.ai | AI Automation Solutions</p>
+<h2>Pasnex.ai</h2>
+<p>AI That Powers the Future of Business</p>
+<p>🚀 Official Launch Coming Soon</p>
+<p style="margin-top:20px;">© 2026 Pasnex.ai. All Rights Reserved.</p>
 </footer>
-<script src="script.js"></script>
+
+</div>
+
 </body>
 </html>
