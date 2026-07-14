@@ -1,505 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Pasnex.ai | Enterprise AI Automation</title>
+<meta charset="UTF-8">
 
-    <meta name="description"
-        content="Pasnex.ai helps businesses automate workflows, customer engagement and operations with enterprise AI solutions.">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+<title>Pasnex.ai | Coming Soon</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
 
-</head>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
+body{
+background:#050816;
+color:#ffffff;
+overflow-x:hidden;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:30px 0;
+}
+
+.logo{
+font-size:32px;
+font-weight:800;
+}
+
+.logo span{
+color:#38bdf8;
+}nav a{
+color:#ffffff;
+text-decoration:none;
+margin-left:30px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+body::before{
+content:"";
+position:fixed;
+width:350px;
+height:350px;
+background:#2563eb;
+top:-120px;
+left:-120px;
+border-radius:50%;
+filter:blur(120px);
+opacity:.35;
+z-index:-1;
+}
+
+body::after{
+content:"";
+position:fixed;
+width:350px;
+height:350px;
+background:#7c3aed;
+bottom:-120px;
+right:-120px;
+border-radius:50%;
+filter:blur(120px);
+opacity:.35;
+z-index:-1;
+}.hero{
+min-height:85vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.badge{
+display:inline-block;
+padding:10px 20px;
+background:rgba(56,189,248,.15);
+border:1px solid rgba(56,189,248,.35);
+border-radius:40px;
+color:#38bdf8;
+margin-bottom:25px;
+font-weight:600;
+}
+
+.hero h1{
+font-size:64px;
+font-weight:800;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.hero h1 span{
+color:#38bdf8;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:20px;
+line-height:1.8;
+color:#cbd5e1;
+}.btn{
+display:inline-block;
+margin-top:40px;
+padding:16px 36px;
+background:#2563eb;
+color:#fff;
+text-decoration:none;
+border-radius:50px;
+font-weight:700;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-4px);
+box-shadow:0 15px 35px rgba(37,99,235,.45);
+}
+
+.launch{
+margin-top:25px;
+font-size:22px;
+color:#22c55e;
+font-weight:700;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:42px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+header{
+flex-direction:column;
+gap:20px;
+}
+
+}
+
+</style>
 
 <body>
 
-<!-- ================= HEADER ================= -->
+<div class="container">
 
-<header class="header">
+<header>
 
-    <div class="container">
+<div class="logo">
+Pasnex<span>.ai</span>
+</div>
 
-        <div class="logo">
-
-            <a href="#">
-                Pasnex<span>.ai</span>
-            </a>
-
-        </div>
-
-        <nav class="navbar">
-
-            <a href="#">Home</a>
-
-            <a href="#services">Solutions</a>
-
-            <a href="#about">About</a>
-
-            <a href="#contact">Contact</a>
-
-        </nav>
-
-        <a href="#contact" class="header-btn">
-            Book Demo
-        </a>
-
-    </div>
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
 
 </header>
-
-<!-- ================= HERO ================= -->
 <section class="hero">
-    <div class="container hero-wrapper">
 
-        <!-- Left -->
-        <div class="hero-left">
+<div>
 
-            <div class="badge">Enterprise AI Solutions</div>
-
-            <h1>
-                Enterprise AI Automation<br>
-                for Modern Businesses
-            </h1>
-
-            <p>
-                Transform customer engagement, automate workflows,
-                reduce operational costs, and accelerate business growth
-                with intelligent AI solutions built for ambitious organizations.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="#contact" class="primary-btn">Start Your AI Journey</a>
-                <a href="#services" class="secondary-btn">Explore Solutions</a>
-            </div>
-
-            <div class="hero-status">
-                <div class="status-item">
-                    <h4>99.9%</h4>
-                    <span>System Uptime</span>
-                </div>
-
-                <div class="status-item">
-                    <h4>24/7</h4>
-                    <span>AI Support</span>
-                </div>
-
-                <div class="status-item">
-                    <h4>5000+</h4>
-                    <span>Users</span>
-                </div>
-
-                <div class="status-item">
-                    <h4>24/7</h4>
-                    <span>Automation</span>
-                </div>
-
-                <div class="status-item">
-                    <h4>99%</h4>
-                    <span>Accuracy</span>
-                </div>
-            </div>
-
-        </div> <!-- hero-left CLOSED -->
-
-        <!-- Right -->
-        <div class="hero-right">
-
-            <div class="hero-card">
-
-                <h2>Enterprise AI Platform</h2>
-
-                <ul>
-                    <li>🤖 AI Chatbots</li>
-                    <li>⚙️ Workflow Automation</li>
-                    <li>📊 Business Analytics</li>
-                    <li>🧠 AI Agents</li>
-                    <li>🔗 CRM Integration</li>
-                    <li>☁ Cloud Deployment</li>
-                </ul>
-
-            </div>
-
-        </div> <!-- hero-right -->
-
-    </div> <!-- hero-wrapper -->
-</section>
-
-
-<!-- ===========================
-     TRUSTED BY
-=========================== -->
-
-<section class="trusted">
-
-    <div class="container">
-
-        <p class="trusted-title">
-            Trusted Technologies
-        </p>
-
-        <div class="trusted-grid">
-
-            <div class="brand-card">OpenAI</div>
-
-            <div class="brand-card">Google Cloud</div>
-
-            <div class="brand-card">Microsoft</div>
-
-            <div class="brand-card">Meta</div>
-
-            <div class="brand-card">AWS</div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ===========================
-     SERVICES
-=========================== -->
-
-<section class="services" id="services">
-
-<div class="container">
-
-<p class="section-tag">
-OUR SERVICES
-</p>
-
-<h2 class="section-title">
-
-AI Solutions Designed
-For Modern Businesses
-
-</h2>
-
-<p class="section-description">
-
-We build enterprise-grade AI automation solutions that
-save time, increase productivity and accelerate business growth.
-
-</p>
-
-<div class="services-grid">
-
-<div class="service-card">
-
-<div class="service-icon">
-🤖
+<div class="badge">
+🚀 AI Powered Business Automation
 </div>
 
-<h3>AI Chatbots</h3>
+<h1>
+
+Build Faster.<br>
+
+<span>Work Smarter.</span><br>
+
+Grow Without Limits.
+
+</h1>
 
 <p>
 
-Human-like AI assistants for customer support,
-lead generation and sales.
+We're building the next-generation AI platform
+that helps businesses automate workflows,
+improve productivity and accelerate growth.
 
 </p>
 
-</div>
+<a href="mailto:info@pasnex.com" class="btn">
 
-<div class="service-card">
+Contact Us
 
-<div class="service-icon">
-⚙️
-</div>
+</a>
 
-<h3>Workflow Automation</h3>
+<div class="launch">
 
-<p>
-
-Automate repetitive business processes
-and improve efficiency.
-
-</p>
-
-</div>
-
-<div class="service-card">
-
-<div class="service-icon">
-📊
-</div>
-
-<h3>AI Analytics</h3>
-
-<p>
-
-Convert raw business data into
-powerful insights.
-
-</p>
-
-</div>
-
-<div class="service-card">
-
-<div class="service-icon">
-🚀
-</div>
-
-<h3>AI Agents</h3>
-
-<p>
-
-Smart AI agents capable of handling
-complex business tasks.
-
-</p>
-
-</div>
-
-<div class="service-card">
-
-<div class="service-icon">
-💻
-</div>
-
-<h3>Custom AI Software</h3>
-
-<p>
-
-Enterprise software developed
-specifically for your business.
-
-</p>
-
-</div>
-
-<div class="service-card">
-
-<div class="service-icon">
-🔗
-</div>
-
-<h3>System Integration</h3>
-
-<p>
-
-Connect AI with CRM, ERP,
-WhatsApp and existing systems.
-
-</p>
-
-</div>
+Official Launch Coming Soon
 
 </div>
 
 </div>
 
 </section>
+<section class="features">
 
-<!-- ===========================
-     WHY PASNEX.AI
-=========================== -->
-
-<section class="why">
-
-<div class="container">
-
-<p class="section-tag">
-WHY PASNEX.AI
-</p>
-
-<h2 class="section-title">
-
-Built For Businesses
-That Want To Scale
-
-</h2>
-
-<p class="section-description">
-
-We combine enterprise AI, automation and custom software
-to help businesses save time, reduce costs and grow faster.
-
-</p>
-
-<div class="why-grid">
-
-<div class="why-box">
-
-<div class="why-number">
-01
+<div class="feature">
+<h3>⚡ AI Automation</h3>
+<p>Automate repetitive workflows with intelligent AI solutions.</p>
 </div>
 
-<h3>Enterprise Security</h3>
-
-<p>
-
-Secure AI solutions built with
-privacy and scalability in mind.
-
-</p>
-
+<div class="feature">
+<h3>🧠 Smart Intelligence</h3>
+<p>Make better business decisions using AI-powered insights.</p>
 </div>
 
-<div class="why-box">
-
-<div class="why-number">
-02
-</div>
-
-<h3>Fast Deployment</h3>
-
-<p>
-
-Launch AI automation in days,
-not months.
-
-</p>
-
-</div>
-
-<div class="why-box">
-
-<div class="why-number">
-03
-</div>
-
-<h3>24/7 Support</h3>
-
-<p>
-
-Dedicated support whenever
-your business needs us.
-
-</p>
-
-</div>
-
-<div class="why-box">
-
-<div class="why-number">
-04
-</div>
-
-<h3>Future Ready</h3>
-
-<p>
-
-Solutions designed to grow
-with your company.
-
-</p>
-
-</div>
-
-</div>
-
+<div class="feature">
+<h3>☁️ Cloud Platform</h3>
+<p>Secure, scalable and built for modern businesses.</p>
 </div>
 
 </section>
+<style>
 
-<!-- ===========================
-     PROCESS
-=========================== -->
+.features{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+padding:60px 0;
+}
 
-<section class="process">
+.feature{
+width:300px;
+padding:30px;
+background:rgba(255,255,255,.08);
+border:1px solid rgba(255,255,255,.10);
+border-radius:20px;
+text-align:center;
+backdrop-filter:blur(15px);
+transition:.3s;
+}
 
-<div class="container">
+.feature:hover{
+transform:translateY(-8px);
+border-color:#38bdf8;
+box-shadow:0 15px 35px rgba(56,189,248,.25);
+}
 
-<p class="section-tag">
-HOW IT WORKS
-</p>
+.feature h3{
+color:#38bdf8;
+margin-bottom:15px;
+}
 
-<h2 class="section-title">
+.feature p{
+color:#cbd5e1;
+line-height:1.7;
+}
 
-Simple Process.
-Powerful Results.
+footer{
+text-align:center;
+padding:50px 20px;
+border-top:1px solid rgba(255,255,255,.08);
+color:#94a3b8;
+}
 
-</h2>
+</style>
 
-<div class="process-grid">
-
-<div class="process-card">
-
-<div class="step">01</div>
-
-<h3>Discovery</h3>
-
-<p>
-We understand your business goals,
-processes and automation needs.
-</p>
-
-</div>
-
-<div class="process-card">
-
-<div class="step">02</div>
-
-<h3>Strategy</h3>
-
-<p>
-Our experts design the best AI
-automation solution for your business.
-</p>
-
-</div>
-
-<div class="process-card">
-
-<div class="step">03</div>
-
-<h3>Deployment</h3>
-
-<p>
-We build, integrate and deploy your
-AI solution with complete support.
-</p>
+<footer>
+<h2>Pasnex.ai</h2>
+<p>AI That Powers the Future of Business</p>
+<p>🚀 Official Launch Coming Soon</p>
+<p style="margin-top:20px;">© 2026 Pasnex.ai. All Rights Reserved.</p>
+</footer>
 
 </div>
 
-</div>
-
-<div class="stats-grid">
-
-<div class="stat-box">
-
-<h2>5000+</h2>
-
-<p>Businesses Reached</p>
-
-</div>
-
-<div class="stat-box">
-
-<h2>99%</h2>
-
-<p>Automation Accuracy</p>
-
-</div>
-
-<div class="stat-box">
-
-<h2>24/7</h2>
-
-<p>Support Available</p>
-
-</div>
-
-<div class="stat-box">
-
-<h2>100+</h2>
-
-<p>AI Projects</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
+</body>
+</html>
